@@ -1,0 +1,3 @@
+﻿  erluosi.c
+D:\develop\Sources\solu3\erluosi\erluosi\erluosi.c(296,11): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  erluosi.vcxproj -> D:\develop\Sources\solu3\erluosi\x64\Debug\erluosi.exe
