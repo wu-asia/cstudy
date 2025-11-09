@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\develop\\Sources\\solu3\\allocation_demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7A6ACF-1ABA-410A-84E1-FE0B4512CEA8}|allocation_demo\\allocation_demo.vcxproj|D:\\develop\\Sources\\solu3\\allocation_demo\\allocation_demo\\scanf.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD7A6ACF-1ABA-410A-84E1-FE0B4512CEA8}|allocation_demo\\allocation_demo.vcxproj|solutionrelative:allocation_demo\\scanf.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7A6ACF-1ABA-410A-84E1-FE0B4512CEA8}|allocation_demo\\allocation_demo.vcxproj|D:\\develop\\Sources\\solu3\\allocation_demo\\allocation_demo\\allocation.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD7A6ACF-1ABA-410A-84E1-FE0B4512CEA8}|allocation_demo\\allocation_demo.vcxproj|solutionrelative:allocation_demo\\allocation.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "scanf.c",
+              "DocumentMoniker": "D:\\develop\\Sources\\solu3\\allocation_demo\\allocation_demo\\scanf.c",
+              "RelativeDocumentMoniker": "allocation_demo\\scanf.c",
+              "ToolTip": "D:\\develop\\Sources\\solu3\\allocation_demo\\allocation_demo\\scanf.c",
+              "RelativeToolTip": "allocation_demo\\scanf.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-12T01:50:54.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "allocation.c",
+              "DocumentMoniker": "D:\\develop\\Sources\\solu3\\allocation_demo\\allocation_demo\\allocation.c",
+              "RelativeDocumentMoniker": "allocation_demo\\allocation.c",
+              "ToolTip": "D:\\develop\\Sources\\solu3\\allocation_demo\\allocation_demo\\allocation.c",
+              "RelativeToolTip": "allocation_demo\\allocation.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-12T01:17:58.235Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

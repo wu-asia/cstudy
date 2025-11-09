@@ -1,63 +1,63 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>  // ç”¨äº_getch()
+#include <conio.h>  // ÓÃÓÚ_getch()
 #include <time.h>
-#include <windows.h> // ç”¨äºSleep()
+#include <windows.h> // ÓÃÓÚSleep()
 
 #define WIDTH 10
 #define HEIGHT 20
 #define BLOCK_SIZE 4
 
-// æ–¹å—å½¢çŠ¶å®šä¹‰ (ä½¿ç”¨4x4ç½‘æ ¼è¡¨ç¤º)
+// ·½¿éĞÎ×´¶¨Òå (Ê¹ÓÃ4x4Íø¸ñ±íÊ¾)
 int tetrominoes[7][4][4] = {
-    // I æ–¹å—
+    // I ·½¿é
+    {
+        {1, 1, 0, 0},
+        {1, 1, 0, 0},
+        {0, 0, 0, 0},
+        {0, 0, 0, 0}
+    },
+    // O ·½¿é
     {
         {0, 1, 0, 0},
         {0, 1, 0, 0},
         {0, 1, 0, 0},
         {0, 1, 0, 0}
     },
-    // O æ–¹å—
+    // T ·½¿é
+    {
+        {1, 1, 1, 1},
+        {0, 0, 0, 0},
+        {0, 0, 0, 0},
+        {0, 0, 0, 0}
+    },
+    // S ·½¿é
     {
         {1, 1, 0, 0},
         {1, 1, 0, 0},
         {0, 0, 0, 0},
         {0, 0, 0, 0}
     },
-    // T æ–¹å—
+    // Z ·½¿é
     {
-        {0, 1, 0, 0},
-        {1, 1, 1, 0},
-        {0, 0, 0, 0},
-        {0, 0, 0, 0}
-    },
-    // S æ–¹å—
-    {
-        {0, 1, 1, 0},
+        {1, 1, 0, 0},
         {1, 1, 0, 0},
         {0, 0, 0, 0},
         {0, 0, 0, 0}
     },
-    // Z æ–¹å—
+    // J ·½¿é
     {
-        {1, 1, 0, 0},
-        {0, 1, 1, 0},
+        {1, 1, 1, 1},
+        {0, 0, 0, 0},
         {0, 0, 0, 0},
         {0, 0, 0, 0}
     },
-    // J æ–¹å—
-    {
-        {1, 0, 0, 0},
-        {1, 1, 1, 0},
-        {0, 0, 0, 0},
-        {0, 0, 0, 0}
-    },
-    // L æ–¹å—
+    // L ·½¿é
     {
         {0, 1, 0, 0},
         {0, 1, 0, 0},
-        {0, 1, 1, 0},
-        {0, 0, 0, 0}
+        {0, 1, 0, 0},
+        {0, 1, 0, 0}
     }
 };
 
@@ -68,7 +68,7 @@ int currentBlockType;
 int gameOver = 0;
 int score = 0;
 
-// åˆå§‹åŒ–æ¸¸æˆåŒºåŸŸ
+// ³õÊ¼»¯ÓÎÏ·ÇøÓò
 void initGameArea() {
     for (int y = 0; y < HEIGHT; y++) {
         for (int x = 0; x < WIDTH; x++) {
@@ -77,7 +77,7 @@ void initGameArea() {
     }
 }
 
-// éšæœºç”Ÿæˆä¸€ä¸ªæ–°æ–¹å—
+// Ëæ»úÉú³ÉÒ»¸öĞÂ·½¿é
 void newBlock() {
     currentBlockType = rand() % 7;
     for (int y = 0; y < 4; y++) {
@@ -89,7 +89,7 @@ void newBlock() {
     blockY = 0;
 }
 
-// æ£€æŸ¥æ–¹å—æ˜¯å¦å¯ä»¥æ”¾ç½®åœ¨æŒ‡å®šä½ç½®
+// ¼ì²é·½¿éÊÇ·ñ¿ÉÒÔ·ÅÖÃÔÚÖ¸¶¨Î»ÖÃ
 int canPlace(int block[4][4], int x, int y) {
     for (int dy = 0; dy < 4; dy++) {
         for (int dx = 0; dx < 4; dx++) {
@@ -108,7 +108,7 @@ int canPlace(int block[4][4], int x, int y) {
     return 1;
 }
 
-// å°†å½“å‰æ–¹å—å›ºå®šåˆ°æ¸¸æˆåŒºåŸŸ
+// ½«µ±Ç°·½¿é¹Ì¶¨µ½ÓÎÏ·ÇøÓò
 void placeBlock() {
     for (int dy = 0; dy < 4; dy++) {
         for (int dx = 0; dx < 4; dx++) {
@@ -123,7 +123,7 @@ void placeBlock() {
     }
 }
 
-// æ—‹è½¬å½“å‰æ–¹å—
+// Ğı×ªµ±Ç°·½¿é
 void rotateBlock() {
     int rotated[4][4] = { 0 };
     for (int y = 0; y < 4; y++) {
@@ -141,7 +141,7 @@ void rotateBlock() {
     }
 }
 
-// æ£€æŸ¥å¹¶æ¶ˆé™¤å®Œæ•´çš„è¡Œ
+// ¼ì²é²¢Ïû³ıÍêÕûµÄĞĞ
 void checkLines() {
     for (int y = HEIGHT - 1; y >= 0; y--) {
         int full = 1;
@@ -154,38 +154,38 @@ void checkLines() {
 
         if (full) {
             score += 100;
-            // å°†ä¸Šé¢çš„è¡Œä¸‹ç§»
+            // ½«ÉÏÃæµÄĞĞÏÂÒÆ
             for (int ky = y; ky > 0; ky--) {
                 for (int x = 0; x < WIDTH; x++) {
                     gameArea[ky][x] = gameArea[ky - 1][x];
                 }
             }
-            // é¡¶è¡Œæ¸…é›¶
+            // ¶¥ĞĞÇåÁã
             for (int x = 0; x < WIDTH; x++) {
                 gameArea[0][x] = 0;
             }
-            y++; // é‡æ–°æ£€æŸ¥å½“å‰è¡Œ
+            y++; // ÖØĞÂ¼ì²éµ±Ç°ĞĞ
         }
     }
 }
 
-// ç»˜åˆ¶æ¸¸æˆåŒºåŸŸ
+// »æÖÆÓÎÏ·ÇøÓò
 void draw() {
-    system("cls"); // æ¸…å±
+    system("cls"); // ÇåÆÁ
 
-    // ç»˜åˆ¶æ¸¸æˆåŒºåŸŸé¡¶éƒ¨è¾¹ç•Œ
+    // »æÖÆÓÎÏ·ÇøÓò¶¥²¿±ß½ç
     for (int x = 0; x < WIDTH + 2; x++) {
         printf("#");
     }
     printf("\n");
 
-    // ç»˜åˆ¶æ¸¸æˆåŒºåŸŸ
+    // »æÖÆÓÎÏ·ÇøÓò
     for (int y = 0; y < HEIGHT; y++) {
-        printf("#"); // å·¦è¾¹ç•Œ
+        printf("#"); // ×ó±ß½ç
         for (int x = 0; x < WIDTH; x++) {
             int isBlock = 0;
 
-            // æ£€æŸ¥å½“å‰ä½ç½®æ˜¯å¦æœ‰å½“å‰æ–¹å—
+            // ¼ì²éµ±Ç°Î»ÖÃÊÇ·ñÓĞµ±Ç°·½¿é
             if (blockY >= 0 && blockY < HEIGHT) {
                 for (int dy = 0; dy < 4; dy++) {
                     for (int dx = 0; dx < 4; dx++) {
@@ -210,52 +210,52 @@ void draw() {
                 printf("  ");
             }
         }
-        printf("#\n"); // å³è¾¹ç•Œ
+        printf("#\n"); // ÓÒ±ß½ç
     }
 
-    // ç»˜åˆ¶æ¸¸æˆåŒºåŸŸåº•éƒ¨è¾¹ç•Œ
+    // »æÖÆÓÎÏ·ÇøÓòµ×²¿±ß½ç
     for (int x = 0; x < WIDTH + 2; x++) {
         printf("#");
     }
     printf("\n");
 
-    // æ˜¾ç¤ºåˆ†æ•°
+    // ÏÔÊ¾·ÖÊı
     printf("Score: %d\n", score);
 
-    // æ¸¸æˆç»“æŸæç¤º
+    // ÓÎÏ·½áÊøÌáÊ¾
     if (gameOver) {
         printf("GAME OVER! Press R to restart.\n");
     }
 }
 
-// æ¸¸æˆä¸»å¾ªç¯
+// ÓÎÏ·Ö÷Ñ­»·
 void gameLoop() {
     int dropCounter = 0;
-    int dropInterval = 20; // ä¸‹è½é€Ÿåº¦æ§åˆ¶
+    int dropInterval = 20; // ÏÂÂäËÙ¶È¿ØÖÆ
 
     while (!gameOver) {
         if (_kbhit()) {
             char key = _getch();
             switch (key) {
-            case 'a': // å·¦ç§»
+            case 'a': // ×óÒÆ
                 if (canPlace(currentBlock, blockX - 1, blockY)) {
                     blockX--;
                 }
                 break;
-            case 'd': // å³ç§»
+            case 'd': // ÓÒÒÆ
                 if (canPlace(currentBlock, blockX + 1, blockY)) {
                     blockX++;
                 }
                 break;
-            case 's': // åŠ é€Ÿä¸‹è½
+            case 's': // ¼ÓËÙÏÂÂä
                 if (canPlace(currentBlock, blockX, blockY + 1)) {
                     blockY++;
                 }
                 break;
-            case 'w': // æ—‹è½¬
+            case 'w': // Ğı×ª
                 rotateBlock();
                 break;
-            case 'r': // é‡æ–°å¼€å§‹
+            case 'r': // ÖØĞÂ¿ªÊ¼
                 if (gameOver) {
                     initGameArea();
                     score = 0;
@@ -263,12 +263,12 @@ void gameLoop() {
                     newBlock();
                 }
                 break;
-            case 27: // ESCé”®é€€å‡º
+            case 27: // ESC¼üÍË³ö
                 return;
             }
         }
 
-        // æ–¹å—è‡ªåŠ¨ä¸‹è½
+        // ·½¿é×Ô¶¯ÏÂÂä
         dropCounter++;
         if (dropCounter >= dropInterval) {
             dropCounter = 0;
@@ -280,7 +280,7 @@ void gameLoop() {
                 checkLines();
                 newBlock();
 
-                // æ£€æŸ¥æ–°æ–¹å—æ˜¯å¦å¯ä»¥æ”¾ç½®ï¼Œå¦‚æœä¸èƒ½åˆ™æ¸¸æˆç»“æŸ
+                // ¼ì²éĞÂ·½¿éÊÇ·ñ¿ÉÒÔ·ÅÖÃ£¬Èç¹û²»ÄÜÔòÓÎÏ·½áÊø
                 if (!canPlace(currentBlock, blockX, blockY)) {
                     gameOver = 1;
                 }
@@ -288,19 +288,19 @@ void gameLoop() {
         }
 
         draw();
-        Sleep(50); // æ§åˆ¶æ¸¸æˆé€Ÿåº¦
+        Sleep(50); // ¿ØÖÆÓÎÏ·ËÙ¶È
     }
 }
 
 int main() {
-    srand(time(NULL)); // åˆå§‹åŒ–éšæœºæ•°ç§å­
+    srand(time(NULL)); // ³õÊ¼»¯Ëæ»úÊıÖÖ×Ó
 
     initGameArea();
     newBlock();
 
-    printf("ä¿„ç½—æ–¯æ–¹å—æ¸¸æˆ\n");
-    printf("æ§åˆ¶: Aå·¦ç§», Då³ç§», SåŠ é€Ÿä¸‹è½, Wæ—‹è½¬, Ré‡æ–°å¼€å§‹, ESCé€€å‡º\n");
-    printf("æŒ‰ä»»æ„é”®å¼€å§‹æ¸¸æˆ...");
+    printf("¶íÂŞË¹·½¿éÓÎÏ·\n");
+    printf("¿ØÖÆ: A×óÒÆ, DÓÒÒÆ, S¼ÓËÙÏÂÂä, WĞı×ª, RÖØĞÂ¿ªÊ¼, ESCÍË³ö\n");
+    printf("°´ÈÎÒâ¼ü¿ªÊ¼ÓÎÏ·...");
     _getch();
 
     gameLoop();
