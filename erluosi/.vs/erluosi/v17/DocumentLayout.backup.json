@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\develop\\Sources\\solu3\\erluosi\\",
+  "WorkspaceRootPath": "D:\\develop\\Sources\\Github\\cstudy\\erluosi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEE9CE4E-AF96-46F1-B685-4E63671CE73C}|erluosi\\erluosi.vcxproj|D:\\develop\\Sources\\solu3\\erluosi\\erluosi\\erluosi.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{EEE9CE4E-AF96-46F1-B685-4E63671CE73C}|erluosi\\erluosi.vcxproj|D:\\develop\\Sources\\Github\\cstudy\\erluosi\\erluosi\\erluosi.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EEE9CE4E-AF96-46F1-B685-4E63671CE73C}|erluosi\\erluosi.vcxproj|solutionrelative:erluosi\\erluosi.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "erluosi.c",
-              "DocumentMoniker": "D:\\develop\\Sources\\solu3\\erluosi\\erluosi\\erluosi.c",
+              "DocumentMoniker": "D:\\develop\\Sources\\Github\\cstudy\\erluosi\\erluosi\\erluosi.c",
               "RelativeDocumentMoniker": "erluosi\\erluosi.c",
-              "ToolTip": "D:\\develop\\Sources\\solu3\\erluosi\\erluosi\\erluosi.c*",
+              "ToolTip": "D:\\develop\\Sources\\Github\\cstudy\\erluosi\\erluosi\\erluosi.c*",
               "RelativeToolTip": "erluosi\\erluosi.c*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-31T11:28:43.682Z",
               "EditorCaption": ""
