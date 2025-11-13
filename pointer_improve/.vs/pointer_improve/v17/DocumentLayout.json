@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\develop\\Sources\\solu3\\pointer_improve\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D3C69B-39BD-4D4D-B823-702C904E2DFB}|pointer_improve\\pointer_improve.vcxproj|D:\\develop\\Sources\\solu3\\pointer_improve\\pointer_improve\\ti_arr.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C6D3C69B-39BD-4D4D-B823-702C904E2DFB}|pointer_improve\\pointer_improve.vcxproj|solutionrelative:pointer_improve\\ti_arr.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D3C69B-39BD-4D4D-B823-702C904E2DFB}|pointer_improve\\pointer_improve.vcxproj|D:\\develop\\Sources\\solu3\\pointer_improve\\pointer_improve\\second_pointer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C6D3C69B-39BD-4D4D-B823-702C904E2DFB}|pointer_improve\\pointer_improve.vcxproj|solutionrelative:pointer_improve\\second_pointer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D3C69B-39BD-4D4D-B823-702C904E2DFB}|pointer_improve\\pointer_improve.vcxproj|D:\\develop\\Sources\\solu3\\pointer_improve\\pointer_improve\\lovee.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C6D3C69B-39BD-4D4D-B823-702C904E2DFB}|pointer_improve\\pointer_improve.vcxproj|solutionrelative:pointer_improve\\lovee.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D3C69B-39BD-4D4D-B823-702C904E2DFB}|pointer_improve\\pointer_improve.vcxproj|D:\\develop\\Sources\\solu3\\pointer_improve\\pointer_improve\\love.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C6D3C69B-39BD-4D4D-B823-702C904E2DFB}|pointer_improve\\pointer_improve.vcxproj|solutionrelative:pointer_improve\\love.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ti_arr.c",
+              "DocumentMoniker": "D:\\develop\\Sources\\solu3\\pointer_improve\\pointer_improve\\ti_arr.c",
+              "RelativeDocumentMoniker": "pointer_improve\\ti_arr.c",
+              "ToolTip": "D:\\develop\\Sources\\solu3\\pointer_improve\\pointer_improve\\ti_arr.c",
+              "RelativeToolTip": "pointer_improve\\ti_arr.c",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvy4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-05T07:57:45.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "lovee.c",
+              "DocumentMoniker": "D:\\develop\\Sources\\solu3\\pointer_improve\\pointer_improve\\lovee.c",
+              "RelativeDocumentMoniker": "pointer_improve\\lovee.c",
+              "ToolTip": "D:\\develop\\Sources\\solu3\\pointer_improve\\pointer_improve\\lovee.c",
+              "RelativeToolTip": "pointer_improve\\lovee.c",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwDAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-04T14:38:27.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "love.c",
+              "DocumentMoniker": "D:\\develop\\Sources\\solu3\\pointer_improve\\pointer_improve\\love.c",
+              "RelativeDocumentMoniker": "pointer_improve\\love.c",
+              "ToolTip": "D:\\develop\\Sources\\solu3\\pointer_improve\\pointer_improve\\love.c",
+              "RelativeToolTip": "pointer_improve\\love.c",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAmwIkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-04T13:32:05.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "second_pointer.c",
+              "DocumentMoniker": "D:\\develop\\Sources\\solu3\\pointer_improve\\pointer_improve\\second_pointer.c",
+              "RelativeDocumentMoniker": "pointer_improve\\second_pointer.c",
+              "ToolTip": "D:\\develop\\Sources\\solu3\\pointer_improve\\pointer_improve\\second_pointer.c",
+              "RelativeToolTip": "pointer_improve\\second_pointer.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-04T03:40:44.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
