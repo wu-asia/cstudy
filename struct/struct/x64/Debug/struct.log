@@ -1,0 +1,6 @@
+﻿  struct_recover.c
+D:\develop\vs2022\Community\VC\Tools\MSVC\14.44.35207\include\yvals_core.h(23,1): error C1189: #error:  error STL1003: Unexpected compiler, expected C++ compiler.
+  (编译源文件“struct_recover.c”)
+  
+  sturct_review.c
+  正在生成代码...
