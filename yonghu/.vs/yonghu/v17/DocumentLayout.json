@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\develop\\Sources\\solu3\\yonghu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3CB4A48-AA54-4DBF-AFBC-DF19330B1BED}|yonghu\\yonghu.vcxproj|D:\\develop\\Sources\\solu3\\yonghu\\yonghu\\struction.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F3CB4A48-AA54-4DBF-AFBC-DF19330B1BED}|yonghu\\yonghu.vcxproj|solutionrelative:yonghu\\struction.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3CB4A48-AA54-4DBF-AFBC-DF19330B1BED}|yonghu\\yonghu.vcxproj|D:\\develop\\Sources\\solu3\\yonghu\\yonghu\\password.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F3CB4A48-AA54-4DBF-AFBC-DF19330B1BED}|yonghu\\yonghu.vcxproj|solutionrelative:yonghu\\password.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "struction.c",
+              "DocumentMoniker": "D:\\develop\\Sources\\solu3\\yonghu\\yonghu\\struction.c",
+              "RelativeDocumentMoniker": "yonghu\\struction.c",
+              "ToolTip": "D:\\develop\\Sources\\solu3\\yonghu\\yonghu\\struction.c",
+              "RelativeToolTip": "yonghu\\struction.c",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-09T09:11:45.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "password.c",
+              "DocumentMoniker": "D:\\develop\\Sources\\solu3\\yonghu\\yonghu\\password.c",
+              "RelativeDocumentMoniker": "yonghu\\password.c",
+              "ToolTip": "D:\\develop\\Sources\\solu3\\yonghu\\yonghu\\password.c",
+              "RelativeToolTip": "yonghu\\password.c",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-09T08:27:03.074Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
