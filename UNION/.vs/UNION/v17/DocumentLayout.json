@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\develop\\Sources\\solu3\\UNION\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C5BBB9-E98E-4F82-A038-A762D424FA9F}|UNION\\UNION.vcxproj|D:\\develop\\Sources\\solu3\\UNION\\UNION\\allocation.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E4C5BBB9-E98E-4F82-A038-A762D424FA9F}|UNION\\UNION.vcxproj|solutionrelative:UNION\\allocation.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C5BBB9-E98E-4F82-A038-A762D424FA9F}|UNION\\UNION.vcxproj|D:\\develop\\Sources\\solu3\\UNION\\UNION\\unions.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E4C5BBB9-E98E-4F82-A038-A762D424FA9F}|UNION\\UNION.vcxproj|solutionrelative:UNION\\unions.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "allocation.c",
+              "DocumentMoniker": "D:\\develop\\Sources\\solu3\\UNION\\UNION\\allocation.c",
+              "RelativeDocumentMoniker": "UNION\\allocation.c",
+              "ToolTip": "D:\\develop\\Sources\\solu3\\UNION\\UNION\\allocation.c*",
+              "RelativeToolTip": "UNION\\allocation.c*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-28T11:48:15.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "unions.c",
+              "DocumentMoniker": "D:\\develop\\Sources\\solu3\\UNION\\UNION\\unions.c",
+              "RelativeDocumentMoniker": "UNION\\unions.c",
+              "ToolTip": "D:\\develop\\Sources\\solu3\\UNION\\UNION\\unions.c",
+              "RelativeToolTip": "UNION\\unions.c",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwC8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-28T08:52:03.246Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿  allocation.c
+D:\develop\Sources\solu3\UNION\UNION\allocation.c(22,5): warning C4552: ”+“: 未使用表达式结果
+  UNION.vcxproj -> D:\develop\Sources\solu3\UNION\x64\Debug\UNION.exe
